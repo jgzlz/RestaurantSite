@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="/open-iconic/font/css/open-iconic-bootstrap.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="restaurantStyles.css" />
+    <style>
+      .jumbotron {
+        background: red;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+      }
+    </style>
+    <title>Home Page</title>
+  </head>
+  <body>
+    <!-- Bootstrap Javascript CDNs  -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Begin Page -->
+
+    <!-- Announcement -->
+    <div class="jumbotron">
+      <div id="jumbotronCarosel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            We're opening up a new location!
+          </div>
+          <div class="carousel-item">
+            We're rolling out our seasonal menu, with special options for fall.
+          </div>
+          <div class="carousel-item">
+            The Drink of the Month is SG Special Brew.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <h1>Joe's Burger Joint</h1>
+      <nav class="tabs">
+        <hr />
+        <p id="navbar">
+          <button class="btn badge-pill" href="index.html">
+            Home
+            <span class="oi oi-home"></span>
+          </button>
+          <a class="btn badge-pill" href="menu.html">Menu</a>
+          <a class="btn badge-pill" href="contact.html">Contact Us </a>
+        </p>
+        <hr />
+      </nav>
+    </header>
+
+    <!-- Content -->
+    <article style="background-color: lightgreen;">
+      <div
+        class="container-fluid"
+        style=" width: 800px; text-align: center; padding-bottom: 150px; padding-top: 15px"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/a/af/Joe%27s_Pizza_%28Spiderman%29_%28870248484%29.jpg"
+          alt="Joe's Pizza"
+          style="height:300px; width:800px;"
+        />
+        <h3 style="text-align: left">Restaurant Description:</h3>
+        <p style="text-align: left">
+          Joe's Burger Joint is the home of Joe's Burger, named City Page's
+          Burger of the Year in 2008. In addition, we serve a variety of meals
+          made to order, from Italian Sausages to Brisket Sandwiches. You will,
+          without a doubt, be able to find a great meal here. Homemade root beer
+          is served cold from a tap.
+        </p>
+      </div>
+    </article>
+    <footer>
+      <hr />
+      <p>7070 19th Street, St. Paul Minnesota 55101</p>
+      <p>612-543-2441</p>
+    </footer>
+
+    <!-- Displays if Javascript disabled -->
+    <noscript>
+      <div>
+        It looks like you don't have Javascript disabled. Our website works best
+        if you have Javascript enabled!
+      </div>
+    </noscript>
+  </body>
+</html>
